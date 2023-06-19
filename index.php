@@ -1,5 +1,5 @@
 <?php
-include __DIR__ . '/genres.php';
+
 class movies
 {
     public $name;
