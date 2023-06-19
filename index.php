@@ -39,6 +39,7 @@ echo 'Regista' . ' : '  . $harry->director;
 echo '<br>';
 
 echo '<br>';
+$harry->verifyAge(15);
 
 
 $fast = new movies("Fast & Furious", "2001", "Action", "Louis Leterrier", 18);
@@ -64,3 +65,4 @@ echo 'Genere' . ' : '  . $iron->genres;
 echo '<br>';
 echo 'Regista' . ' : '  . $iron->director;
 echo '<br>';
+$iron->verifyAge(15);
