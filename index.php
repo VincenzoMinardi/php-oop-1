@@ -4,6 +4,7 @@ class movies
 {
     public $name;
     public $production;
+    public $type;
 }
 
 $harry = new movies();
