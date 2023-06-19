@@ -12,18 +12,18 @@ class type
 }
 
 
-$harry = new type();
+$harry = new type($genres, $director);
 $harry->genres = "finction";
 $harry->director = "David Yates";
 
 
-$fast = new type();
+$fast = new type($genres, $director);
 $fast->genres = "action";
 $fast->director = "Louis Leterrier";
 
 
 
 
-$iron = new type();
+$iron = new type($genres, $director);
 $iron->genres = "Iron Man";
 $iron->director =  "Jon Favreau";

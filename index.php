@@ -5,6 +5,12 @@ class movies
     public $name;
     public $production;
     public $type;
+
+    public function __construct($name, $production , $type)
+    {
+        $this-> = name = $name
+        $this-> = production = $production;
+    }
 }
 
 $harry = new movies();
