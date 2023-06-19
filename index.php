@@ -1,12 +1,13 @@
 <?php
-
 class movies
 {
+    // VARIABILI
     public $name;
     public $production;
     public $genres;
     public $director;
 
+    // CONSTRUCT
     public function __construct($name, $production, $genres, $director)
     {
         $this->name = $name;
@@ -16,32 +17,38 @@ class movies
     }
 }
 
+// lE INSTANZE
 $harry = new movies("Harry Potter", "2001", "Adventure", "Alfonso Cuaron");
 
-echo 'nome film' . ' : ' .  $harry->name;
+echo 'Nome film' . ' : ' .  $harry->name;
 echo '<br>';
-echo 'produzione' . ' : '  . $harry->production;
+echo 'Produzione' . ' : '  . $harry->production;
 echo '<br>';
 echo 'Genere' . ' : '  . $harry->genres;
 echo '<br>';
 echo 'Regista' . ' : '  . $harry->director;
 echo '<br>';
+
+echo '<br>';
+
+
 $fast = new movies("Fast & Furious", "2001", "Action", "Louis Leterrier");
 
-echo 'nome film' . ' : ' .  $fast->name;
+echo 'Nome Film' . ' : ' .  $fast->name;
 echo '<br>';
-echo 'produzione' . ' : '  . $fast->production;
+echo 'Produzione' . ' : '  . $fast->production;
 echo '<br>';
 echo 'Genere' . ' : '  . $fast->genres;
 echo '<br>';
 echo 'Regista' . ' : '  . $fast->director;
 echo '<br>';
 
+echo '<br>';
 $iron = new movies("Iron Man", "2008", "Action", "Jon Favreau");
 
-echo 'nome film' . ' : ' .  $iron->name;
+echo 'Nome Film' . ' : ' .  $iron->name;
 echo '<br>';
-echo 'produzione' . ' : '  . $iron->production;
+echo 'Produzione' . ' : '  . $iron->production;
 echo '<br>';
 echo 'Genere' . ' : '  . $iron->genres;
 echo '<br>';
